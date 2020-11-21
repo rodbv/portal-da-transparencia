@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "portal-da-transparencia"
+version = "0.1.0"
+description = ""
+authors = ["Rodrigo Vieira <rodrigo.vieira@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+Scrapy = "^2.4.1"
+Unidecode = "^1.1.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
