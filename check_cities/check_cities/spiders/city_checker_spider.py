@@ -8,7 +8,7 @@ from os import path, makedirs
 
 class CityCheckerSpider(scrapy.Spider):
     name = "city_checker"
-    MATCH_CRITERIA = "Novembro/2020"
+    MATCH_CRITERIA = "Novembro/2020"  # MUDE PARA O MES ATUAL QUE FIZER SENTIDO
     ISSUE_DATE_SELECTOR = "div.data-caderno ::text"
     RESULT_DIR = path.join("data", datetime.now().strftime("%Y%m%d_%H%M%S"))
     RESULT_PATH = path.join(RESULT_DIR, "result.csv")
